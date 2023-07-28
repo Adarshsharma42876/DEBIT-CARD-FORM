@@ -13,8 +13,6 @@ body {
 
 }
 #theme-toggle{
-  border: 2px solid red;
-  padding: 10px;
   cursor: pointer;
   align-items: center;
   justify-content: center;
@@ -23,6 +21,9 @@ body {
   margin-left: 45%;
   margin-top: 5px;
   padding-top:10px ;
+  background:pink;
+  border-radius: 60px;
+  padding-bottom: 8px;
 }
 .dark-theme {
   background-color: #333;
