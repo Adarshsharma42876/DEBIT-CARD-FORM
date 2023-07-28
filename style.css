@@ -9,14 +9,11 @@ body {
   color: #333;
   font-family: Arial, sans-serif;
   transition: background-color 0.3s ease;
-}
+  
 
-.dark-theme {
-  background-color: #333;
-  color: #f0f0f0;
 }
 #theme-toggle{
-border: 2px solid red;
+  border: 2px solid red;
   padding: 10px;
   cursor: pointer;
   align-items: center;
@@ -25,8 +22,13 @@ border: 2px solid red;
   display: flex;
   margin-left: 45%;
   margin-top: 5px;
+  padding-top:10px ;
 }
-
+.dark-theme {
+  background-color: #333;
+  color: #f0f0f0;
+}
+  
 
 * {
   box-sizing: border-box;
@@ -674,7 +676,7 @@ border: 2px solid red;
     font-weight: bold;
   }
   h2{
-    color: black;
+    color:black;
     font-size: large;
     font-weight: bold;
     text-align: center;
